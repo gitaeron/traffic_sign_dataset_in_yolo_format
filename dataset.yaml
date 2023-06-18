@@ -9,5 +9,5 @@ test: # test images (optional)
 nc: 3
 
 # Classes
-names: ['direct', 'turn_left', 'turn_right']
+names: ['straight_only', 'turn_left', 'turn_right']
 

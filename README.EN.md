@@ -1,17 +1,17 @@
 # About this project
 
-This project is a dataset of road traffic signs (straight, left turn, and right turn) created in the YOLO universal format.
+This project is a dataset of road traffic signs (straight_only, left turn, and right turn) created in the YOLO universal format.
 
 Each folder directory is as follows:
 
-- direct - dataset of straight traffic sign
+- straight_only - dataset of straight traffic sign
 - turn_left - dataset of left turn traffic sign
 - turn_right - dataset of right turn traffic sign
 - code - code related to dataset processing
 
-Moreover, each dataset image within the subcategory directory only contains the corresponding traffic sign for the current classification. For example, each image in the 'direct' folder only contains a straight traffic sign and background, without any other objects added or annotated.
+Moreover, each dataset image within the subcategory directory only contains the corresponding traffic sign for the current classification. For example, each image in the 'straight_only' folder only contains a straight-only traffic sign and background, without any other objects added or annotated.
 
-For more information, please check the direct/images folder.
+For more information, please check the straight_only/images folder.
 
 ---
 
@@ -19,7 +19,7 @@ For more information, please check the direct/images folder.
 
 The folder structure of this dataset is as follows:
 
-- direct
+- straight_only
     - images
         - train
         - val
@@ -28,7 +28,7 @@ The folder structure of this dataset is as follows:
         - val
     - classes.txt
 
-The directory structure of the three folders 'direct', 'turn_left', and 'turn_right' are the same.
+The directory structure of the three folders 'straight_only', 'turn_left', and 'turn_right' are the same.
 
 ---
 
@@ -36,7 +36,7 @@ The directory structure of the three folders 'direct', 'turn_left', and 'turn_ri
 
 There are three classes in the 'classes' section:
 
-- direct
+- straight_only
 - turn_left
 - turn_right
 
