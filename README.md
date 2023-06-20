@@ -22,19 +22,29 @@
 
 本项目为 `交通道路路标(只准直行, 左转, 右转)` 的数据集, 使用 Yolo 通用格式制作.
 
-其中, 每一个文件夹目录分别为
-
-- `straight_only` - 直行交通标志数据集
+- `straight_only` - 直行交通标志数据集  
+    - train - 3366
+    - val - 841
 
 - `turn_left` - 左转交通标志数据集
+    - train - 2000
+    - val - 500
 
 - `turn_right` - 右转交通标志数据集
+    - train - 2000
+    - val - 500
+
+- `mix` - 一图多类别
+    - train - 2406
+    - val - 601
 
 - `code` - 数据集处理相关代码
 
-并且, 每一个子类目录中的数据集图片里, 仅包含有当前分类对应的交通标志物, 即是说, `straight_only` 文件夹中的每一张数据集图片仅有 `只准直行交通标志` 这一物类和背景, 并没有添加其他物类 并 对其他物类进行标注. 
+在 `straight_only`, `turn_left`, `turn_right` 文件夹中, 一张图片仅包含当前文件夹所代表的分类, 即 `straight_only` 中的数据集, 在一张图片中仅包含有 `straight_only traffic sign` 与它的标注, 并且不会出现其他分类.
 
-具体请打开 straight_only/images 查看.
+在 `mix` 文件夹中, 一张图片内会出现 两个/多个 交通标志物(straight_only, turn_left, turn_right).
+
+具体请打开 straight_only/images, mix/images 查看区别.
 
 ---
 

@@ -1,17 +1,32 @@
 # About this project
 
-This project is a dataset of road traffic signs (straight_only, left turn, and right turn) created in the YOLO universal format.
+This project is a dataset of road traffic signs (straight, left turn, and right turn) created in the YOLO universal format.
 
-Each folder directory is as follows:
+The folder directories are as follows:
 
-- straight_only - dataset of straight traffic sign
-- turn_left - dataset of left turn traffic sign
-- turn_right - dataset of right turn traffic sign
+- straight_only - dataset of straight traffic signs
+    - train - 3366
+    - val - 841
+
+- turn_left - dataset of left turn traffic signs
+    - train - 2000
+    - val - 500
+
+- turn_right - dataset of right turn traffic signs
+    - train - 2000
+    - val - 500
+
+- mix - multiple classifications in a single image
+    - train - 2406
+    - val - 601
+
 - code - code related to dataset processing
 
-Moreover, each dataset image within the subcategory directory only contains the corresponding traffic sign for the current classification. For example, each image in the 'straight_only' folder only contains a straight-only traffic sign and background, without any other objects added or annotated.
+In the 'straight_only', 'turn_left', and 'turn_right' folders, each image only contains the current category represented by the folder. In other words, the dataset in the 'straight_only' folder only includes the 'straight_only' traffic sign and its annotation and will not include any other classifications.
 
-For more information, please check the straight_only/images folder.
+In the 'mix' folder, each image contains two or more traffic signs from the 'straight_only', 'turn_left', and 'turn_right' categories.
+
+For more information, please check the difference between the straight_only/images and mix/images folders.
 
 ---
 

@@ -13,6 +13,7 @@ The following content is provided under Attribution-NonCommercial 4.0 Internatio
 - proto files from Project/straight_only &emsp;`CC-BY-NC 4.0 License`
 - proto files from Project/turn_left &emsp;`CC-BY-NC 4.0 License`
 - proto files from Project/turn_right &emsp;`CC-BY-NC 4.0 License`
+- proto files from Project/mix &emsp;`CC-BY-NC 4.0 License`
 - proto files from Project/code &emsp;`CC-BY-NC 4.0 License`
 
 If some content violates your rights, please email me to delete it.
