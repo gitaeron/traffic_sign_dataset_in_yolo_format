@@ -38,11 +38,18 @@
     - train - 2406
     - val - 601
 
+- `total` - 整合所有样本
+    - train 9772
+    - val 2442
+
 - `code` - 数据集处理相关代码
 
 在 `straight_only`, `turn_left`, `turn_right` 文件夹中, 一张图片仅包含当前文件夹所代表的分类, 即 `straight_only` 中的数据集, 在一张图片中仅包含有 `straight_only traffic sign` 与它的标注, 并且不会出现其他分类.
 
 在 `mix` 文件夹中, 一张图片内会出现 两个/多个 交通标志物(straight_only, turn_left, turn_right).
+
+在 `total` 文件夹中, 整合了所有类型样本的数据, 便于训练直接使用, 不再需要额外操作.
+
 
 具体请打开 straight_only/images, mix/images 查看区别.
 

@@ -20,11 +20,17 @@ The folder directories are as follows:
     - train - 2406
     - val - 601
 
+- `total` - Integrate all samples.
+    - train 9772
+    - val 2442
+
 - code - code related to dataset processing
 
-In the 'straight_only', 'turn_left', and 'turn_right' folders, each image only contains the current category represented by the folder. In other words, the dataset in the 'straight_only' folder only includes the 'straight_only' traffic sign and its annotation and will not include any other classifications.
+In the `straight_only`, `turn_left`, and `turn_right` folders, each image only contains the current category represented by the folder. In other words, the dataset in the `straight_only` folder only includes the `straight_only` traffic sign and its annotation and will not include any other classifications.
 
-In the 'mix' folder, each image contains two or more traffic signs from the 'straight_only', 'turn_left', and 'turn_right' categories.
+In the `mix` folder, each image contains two or more traffic signs from the `straight_only`, `turn_left`, and `turn_right` categories.
+
+In the `total` folder, all types of sample data are integrated for direct use in training, eliminating the need for additional operations.
 
 For more information, please check the difference between the straight_only/images and mix/images folders.
 
